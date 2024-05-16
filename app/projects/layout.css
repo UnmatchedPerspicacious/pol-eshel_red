@@ -228,9 +228,6 @@ h1, li, p{
 }
 
 
-<<<<<<< HEAD
-@media (max-width: 800px) {
-=======
 .char{
   font-size: 40px;
   height: 40px;
@@ -251,7 +248,6 @@ h1, li, p{
 
 
 @media (max-width: 490px) {
->>>>>>> 311b268a7a260f2c7bfd7402f6d51bf00f2469ee
 
   .description{
     font-size: 1.5em;

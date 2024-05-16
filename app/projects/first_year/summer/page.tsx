@@ -6,7 +6,7 @@ export default function Page(){
   <h1 className="head">Penguin game in unity</h1>
   <p className="description">
 
-    Me and aviv someone in my class created a penguin game, where the penguin essentially tries to dodge objects flying from the sky, if I still have the project I'll let you play but I warn you it's quite bad 🤣.
+    Me and aviv someone in my class created a penguin game, where the penguin essentially tries to dodge objects flying from the sky, if I still have the project Ill let you play but I warn you it&apos;s quite bad 🤣.
 
   </p>
   <div className="images">

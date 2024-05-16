@@ -5,7 +5,7 @@ export default function Page(){
   return <div className="container">
   <h1 className="head">Tiod/ Stock algorithm</h1>
   <p className="description">
-   I'm actually working on two projects, Tiod and a Stock algorithm. Tiod is going to be an application for networking and creating friends with messaging, and the Stock algorithm is going to be an algorithm that based on x commands will trade STOCKS 🗿🗿.
+   Im actually working on two projects, Tiod and a Stock algorithm. Tiod is going to be an application for networking and creating friends with messaging, and the Stock algorithm is going to be an algorithm that based on x commands will trade STOCKS 🗿🗿.
 
   </p>
   <div className="images">

@@ -5,7 +5,7 @@ export default function Page(){
   return <div className="container">
   <h1 className="head">Stock algorithm</h1>
   <p className="description">
-    I learned here a lot about matplotlib as well as plotting and although I didn't build an algorithm I improved much towards my goal and it also taught me how to plot stocks so I can also incorporate machine learning to it.
+    I learned here a lot about matplotlib as well as plotting and although I didn&apos;t build an algorithm I improved much towards my goal and it also taught me how to plot stocks so I can also incorporate machine learning to it.
   </p>
   <div className="images">
     <div className="image-container">

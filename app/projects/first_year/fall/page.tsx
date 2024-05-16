@@ -5,7 +5,7 @@ export default function Page(){
   return <div className="container">
   <h1 className="head">Move onto the next project</h1>
   <p className="description">
-    I didn't do a mini project on my first year as my mentor allowed it so  I went right into the big project
+    I didnt do a mini project on my first year as my mentor allowed it so  I went right into the big project
   </p>
   <div className="images">
     <div className="image-container">
