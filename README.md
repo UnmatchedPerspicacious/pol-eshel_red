@@ -1,7 +1,7 @@
 cd
 # what is this?
 
-this is the template website for our POL (presentation of learning).
+this is the template website for my POL (presentation of learning).
 
 # how to run?
 
