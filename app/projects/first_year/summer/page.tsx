@@ -11,7 +11,7 @@ export default function Page() {
         I actually got to the project by ending my course in unity and then I decided to make a game with aviv a student from my class<br />
         <br />
         What I did:<br />
-        Me and aviv someone in my class created a penguin game, where the penguin essentially tries to dodge objects flying from the sky, if I still have the project Ill let you play but I warn you it&apos;s quite bad 🤣.
+        Me and aviv someone in my class created a penguin game, where the penguin essentially tries to dodge objects flying from the sky, if I still have the project I&apos;ll let you play but I warn you it&apos;s quite bad 🤣.
       </p>
       <div className="images">
         <div className="image-container">
