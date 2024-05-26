@@ -1,55 +1,31 @@
-'use client'
-import { useState } from "react";
-import './page.css';
-import { useRouter } from "next/navigation";
-function timeout(delay: number) {
-  return new Promise( res => setTimeout(res, delay) );
-}
-
-export default function Home() {
-  const [opacity, set_opacity] = useState(1);
-  const router = useRouter();
-  let transition = 1000;
-  async function next_page(){
-    set_opacity(0);
-    await timeout(transition);
-    //@ts-expect-error
-    router.push(location, undefined, { shallow: true });
-    router.refresh();
-    router.replace('/projects/about');
-  }
-  return (
-    <main>
-      <div 
-      style={{transition: transition + "ms", opacity: opacity.toString()}}
-      onClick={next_page}>
+import Link from "next/link";
 
 
-        <h1 className="header">Eshel Nagar</h1>
-        <h1 className="header2">Portfolio</h1>
-
-
-    <div className="animation-container">
-      <div className="lightning-container">
-        <div className="lightning white"></div>
-        <div className="lightning red"></div>
-      </div>
-      <div className="boom-container">
-        <div className="shape circle big white"></div>
-        <div className="shape circle white"></div>
-        <div className="shape triangle big yellow"></div>
-        <div className="shape disc white"></div>
-        <div className="shape triangle blue"></div>
-      </div>
-      <div className="boom-container second">
-        <div className="shape circle big white"></div>
-        <div className="shape circle white"></div>
-        <div className="shape disc white"></div>
-        <div className="shape triangle blue"></div>
-      </div>
+export default function socials(){
+  
+  return <div className="container">
+    <h1 className="head">About me</h1>
+    <div className="descriptions">
+    <div className="aboutme">
+     <h1 className="whoami">Who am i?</h1>
+    <p className="description">
+        My name is Eshel Nagar. Fitness, chess, coding, and finances - these started as hobbies, but they&apos;re slowly becoming professions.  I haven&apos;t uploaded anything to LinkedIn yet, but I have uploaded a thing or two to GitHub. I do frequently post on Instagram. (You can find the links below👇.)
+    </p>
     </div>
-        <p className="clicktomain">Click Anywhere to begin!</p>
-      </div>
-    </main>
-  );
+    <div className="CV">
+      <h1 className="CV-head">CV</h1>
+      <p className="CV-text">
+         At this school, I&apos;m majoring in computer science with a focus on algorithmic trading. My achievements include developing programming projects and gaining knowledge of cryptocurrency. In the future, I aim to create a lucrative stock-trading algorithm that incorporates machine learning. Additionally, I&apos;m working on a groundbreaking application called Tiod with my team. You&apos;ll be hearing more about it soon!🗿
+      </p>
+    </div>
+    </div>
+    <ul className="links">
+  
+      <li className="link">
+        <Link href={"https://www.linkedin.com/feed/"}>LinkedIn</Link>
+      </li>
+      <li className="link"><Link href={"https://github.com/UnmatchedPerspicacious/UnmatchedPerspicacious"}>Github</Link></li>
+      <li className="link"><Link href={"https://www.instagram.com/eshesthenics/"}>Instagram</Link></li>
+    </ul>
+    </div>
 }
