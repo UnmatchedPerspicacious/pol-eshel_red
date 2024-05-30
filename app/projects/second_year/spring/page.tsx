@@ -30,6 +30,17 @@ export default function Page() {
             alt="ML stock prediction"
             width={450}
             height={300} 
+                    <ul className="linksprj">
+          <li className="linkprj">
+            <Link href={"#"}>LinkedIn</Link>
+          </li>
+          <li className="linkprj">
+            <Link href={"#"}>Github</Link>
+          </li>
+          <li className="linkprj">
+            <Link href={"#"}>Facebook</Link>
+          </li>
+        </ul>
           />
         </div>
       </div>
