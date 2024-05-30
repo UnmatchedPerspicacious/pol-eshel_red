@@ -13,7 +13,7 @@ export default function Page() {
       /p>
       <div className="images">
         <div className="image-container">
-          <Image className="image" src={ml} alt="" />
+          <Image className="image" src={ml} alt="" /> </div>
         </div>
         <div className="image-container">
           <Image className="image" src={require("./example
