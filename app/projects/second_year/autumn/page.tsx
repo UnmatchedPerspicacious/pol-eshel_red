@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div className="container">
-      <h1 className="head">ttempt at creating a trading algorithm</h1>
+      <h1 className="head">Attempt at creating a trading algorithm</h1>
       <p className="description"/>
         How I got to the project:
         <br/>
