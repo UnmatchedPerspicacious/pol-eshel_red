@@ -25,7 +25,7 @@ export default function Page() {
             <Link href={"#"}>LinkedIn</Link>
           </li>
           <li className="linkprj"><Link href={"#"}>Github</Link></li>
-          <li className="linkprj"><Link href={"#"}>Facebook</Link></li>
+          <li className="linkprj"><Link href={"#"}>Instagram</Link></li>
         </ul>
       </div>
     </div>
