@@ -15,8 +15,8 @@ export default function Page() {
         </div>
       </div>
       <div className="image-container">
-        <Image className="image" src={require("ml")} alt="ML stock prediction" />
-      
+        <Image className="image" src={ml} alt="ML stock prediction" />
+      </div>
     </div>
   );
 }
