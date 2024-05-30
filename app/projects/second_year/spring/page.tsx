@@ -4,7 +4,7 @@ import ml from "./ml_trading.png";
 
 export default function Page() {
   return (
-    <div className="container">
+    <div className="container"> </div>
       <h1 className="head">Ml stock prediction </h1>
       <p
         className="description">
