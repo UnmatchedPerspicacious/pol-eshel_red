@@ -32,7 +32,7 @@ export default function Page() {
               <Link href="/">Github</Link> 
             </li>
             <li className="linkprj">
-              <Link href="/">Facebook</Link> 
+              <Link href="/">Instagram</Link> 
             </li>
           </ul>
         </div>
