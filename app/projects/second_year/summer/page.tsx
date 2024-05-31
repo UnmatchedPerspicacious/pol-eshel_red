@@ -30,7 +30,7 @@ export default function Page() {
               <Link href="https://github.com/UnmatchedPerspicacious">Github</Link> 
             </li>
             <li className="linkprj">
-              <Link href="/">Instagram</Link> 
+              <Link href="https://www.instagram.com/eshesthenics/">Instagram</Link> 
             </li>
           </ul>
     </div>
