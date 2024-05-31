@@ -22,10 +22,12 @@ export default function Page() {
         </div>
         <ul className="linksprj">
           <li className="linkprj">
-            <Link href={"#"}>LinkedIn</Link>
+            <Link href={"https://www.linkedin.com/feed/"}>LinkedIn</Link>
           </li>
-          <li className="linkprj"><Link href={"#"}>Github</Link></li>
-          <li className="linkprj"><Link href={"#"}>Instagram</Link></li>
+          <li className="linkprj">
+            <Link href={"#"}>Github</Link></li>
+          <li className="linkprj">
+            <Link href={"#"}>Instagram</Link></li>
         </ul>
       </div>
     </div>
