@@ -1,21 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import mlImage from './ml_trading.png'; 
 import React from 'react';
-import mlImage from './ml_trading.png';
-
 export default function Page() {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.head}>ML Stock Prediction</h1>
-      <p className={styles.description}>
+    <div className="container">
+      <h1 className="head">ML Stock Prediction</h1> 
+      <p className="description">
         How I got to the project:
-        <br />
-        Basically, I already had the algo trading project going, but I decided to take a different approach. Instead of creating the algorithm first, I thought it would be beneficial to build a machine learning model first. This would not only help me learn more about ML, but also potentially improve my future algorithm.
-        <br />
+        <br/>
+        Since I already started it in the past I kept going with it this time I was sure everything would be fine because I realised I could create a simple algorithm and then apply ml to it but guess what, the api I wanted to use was from age 18+, so I just added some line in pycharm which told me to keep grinding on the project in a year and half when I&apos;m 18.
+        <br/>
         What I did:
-        <br />
-        I built a machine learning model and trained it to predict stock open, high, low, volume, and close values. It achieved a very low loss function, which is excellent because a lower loss function indicates a more accurate model.
-      </p>
+        <br/>
+       I built a machine learning model and trained it to predict stock open, high, low, volume, and close values. It achieved a very low loss function, which is excellent because a lower loss function indicates a more accurate model.
       <div className={styles.images}>
         <div className={styles.imageContainer}>
           <Image
@@ -24,15 +22,15 @@ export default function Page() {
             width={450}
             height={300}
           />
-          <ul className={styles.linksprj}>
-            <li className={styles.linkprj}>
-              <Link href="https://www.linkedin.com/feed/">LinkedIn</Link>
+          <ul className="linksprj">
+            <li className="linkprj">
+              <Link href="https://www.linkedin.com/feed/">LinkedIn</Link> 
             </li>
-            <li className={styles.linkprj}>
-              <Link href="https://github.com/UnmatchedPerspicacious">Github</Link>
+            <li className="linkprj">
+              <Link href="https://github.com/UnmatchedPerspicacious">Github</Link> 
             </li>
-            <li className={styles.linkprj}>
-              <Link href="https://www.instagram.com/eshesthenics/">Instagram</Link>
+            <li className="linkprj">
+              <Link href="https://www.instagram.com/eshesthenics/">Instagram</Link> 
             </li>
           </ul>
         </div>
