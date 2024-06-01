@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import mlImage from './ml_trading.png';
-import styles from './styles.module.css';
 
 export default function Page() {
   return (
