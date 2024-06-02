@@ -4,13 +4,15 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-  <div className="container">
+    <div className="container">
       <h1 className="head">Attempt at creating a trading algorithm</h1>
       <p className="description">
-        How I got to the project:</br>
+        How I got to the project:
+        <br />
         Since I realized unity is garbage and python is much better I learned python, I also got introduced into algo trading and then I decided to make this project
-        </br>
+        <br />
         What I did:
+        <br />
         Essentially I got stock data through an api and tried to apply some functionality to it so it will end up as an algorithm.
       </p>
       <div className="images">
