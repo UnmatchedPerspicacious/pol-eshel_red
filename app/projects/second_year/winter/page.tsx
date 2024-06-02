@@ -9,7 +9,7 @@ export default function Page() {
       <p className="description">
         How I got to the project:
         <br />
-        Because my last project was basically doing the same thing just that now I had more knowledge I decided to keep going with this project.
+        Because my last project was basically doing the same thing just that now I had more knowledge I decided to keep going with this project.<br />
         <br />
         What I did:
         <br />
