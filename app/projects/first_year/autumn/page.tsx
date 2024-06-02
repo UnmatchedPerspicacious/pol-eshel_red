@@ -21,7 +21,7 @@ export default function Page() {
         </div>
         <ul className="linksprj">
           <li className="linkprj">
-            <Link href={"https://www.linkedin.com/feed/"}>LinkedIn</Link>
+            <Link href={"https://www.linkedin.com/in/eshel-nagar-3a8294259/"}>LinkedIn</Link>
           </li>
           <li className="linkprj">
             <Link href={"https://github.com/UnmatchedPerspicacious"}>Github</Link>
