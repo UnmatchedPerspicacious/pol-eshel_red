@@ -7,10 +7,10 @@ export default function Page() {
     <div className="container">
       <h1 className="head">Attempt at creating a trading algorithm</h1>
       <p className="description">
-        How I got to the project:
+        How I got to the project:</br>
         Since I realized unity is garbage and python is much better I learned python, I also got introduced into algo trading and then I decided to make this project
-
-        What I did:
+        </br>
+        What I did:</br>
         Essentially I got stock data through an api and tried to apply some functionality to it so it will end up as an algorithm.
       </p>
       <div className="images">
