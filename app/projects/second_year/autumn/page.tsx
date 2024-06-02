@@ -9,7 +9,7 @@ export default function Page() {
       <p className="description">
         How I got to the project:
         <br />
-        Since I realized unity is garbage and python is much better I learned python, I also got introduced into algo trading and then I decided to make this project
+        Since I realized unity is garbage and python is much better I learned python, I also got introduced into algo trading and then I decided to make this project.<br />
         <br />
         What I did:
         <br />
