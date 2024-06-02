@@ -20,7 +20,7 @@ export default function socials(){
     <ul className="links">
   
       <li className="link">
-        <Link href={"https://www.linkedin.com/feed/"}>LinkedIn</Link>
+        <Link href={"https://www.linkedin.com/in/eshel-nagar-3a8294259/"}>LinkedIn</Link>
       </li>
       <li className="link"><Link href={"https://github.com/UnmatchedPerspicacious/UnmatchedPerspicacious"}>Github</Link></li>
       <li className="link"><Link href={"https://www.instagram.com/eshesthenics/"}>Instagram</Link></li>
