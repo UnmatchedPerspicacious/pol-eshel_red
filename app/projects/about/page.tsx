@@ -10,7 +10,7 @@ export default function socials(){
         My name is Eshel Nagar. Fitness, chess, coding, and finances - these started as hobbies, but they&apos;re slowly becoming professions.  I haven&apos;t uploaded anything to LinkedIn yet, but I have uploaded a thing or two to GitHub. I do frequently post on Instagram. (You can find the links below👇.)
     </p>
     </div>
-    <div className="CV">
+    <div className="What I do in school:">
       <h1 className="CV-head">CV</h1>
       <p className="CV-text">
          At this school, I&apos;m majoring in computer science with a focus on algorithmic trading. My achievements include developing programming projects and gaining knowledge of cryptocurrency. In the future, I aim to create a lucrative stock-trading algorithm that incorporates machine learning. Additionally, I&apos;m working on a groundbreaking application called Tiod with my team. You&apos;ll be hearing more about it soon!🗿
