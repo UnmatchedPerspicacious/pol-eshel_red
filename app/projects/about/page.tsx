@@ -11,7 +11,7 @@ export default function socials(){
     </p>
     </div>
     <div className="What I do in school:">
-      <h1 className="CV-head">CV</h1>
+      <h1 className="CV-head">What I do in school</h1>
       <p className="CV-text">
          At this school, I&apos;m majoring in computer science with a focus on algorithmic trading. My achievements include developing programming projects and gaining knowledge of cryptocurrency. In the future, I aim to create a lucrative stock-trading algorithm that incorporates machine learning. Additionally, I&apos;m working on a groundbreaking application called Tiod with my team. You&apos;ll be hearing more about it soon!🗿
       </p>
